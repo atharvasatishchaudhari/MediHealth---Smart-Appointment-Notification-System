@@ -48,19 +48,66 @@ MediHealth is a full-stack healthcare appointment booking system that enables **
 
 ## 📁 Folder Structure
 📦 MediHealth
+📦 MediHealth
 ├── backend
-│ ├── models # Mongoose models for User & Appointment
-│ ├── routes # Auth, Appointments, Doctors
-│ ├── middleware # auth.js, isDoctor.js
-│ ├── config # MongoDB connection
-│ ├── socket.js # Socket.IO server config
-│ └── server.js # Express entry point
-│
-├── frontend
-│ ├── src
-│ │ ├── pages # React pages (AppointmentPage, etc.)
-│ │ ├── context # AuthContext for user login/logout
-│ │ ├── api.js # Axios setup
-│ │ ├── socket.js # Socket.IO client instance
-│ │ └── App.jsx
-│ └── public / index.html
+│   ├── config
+│   │   └── db.js
+│   ├── middleware
+│   │   ├── auth.js
+│   │   └── isDoctor.js
+│   ├── models
+│   │   ├── Appointment.js
+│   │   ├── Doctor.js
+│   │   └── User.js
+│   ├── routes
+│   │   ├── appointments.js
+│   │   ├── auth.js
+│   │   └── doctors.js
+│   ├── node_modules
+│   ├── .env
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── seedDoctors.js
+│   ├── server.js
+│   └── socket.js
+
+├── medi-booking (frontend)
+│   ├── public
+│   │   └── vite.svg
+│   ├── src
+│   │   ├── assets
+│   │   ├── components
+│   │   ├── context
+│   │   ├── pages
+│   │   ├── api.js
+│   │   ├── App.css
+│   │   ├── App.jsx
+│   │   ├── index.css
+│   │   ├── main.jsx
+│   │   └── socket.js
+│   ├── .gitignore
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── vite.config.js
+│   └── README.md
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
