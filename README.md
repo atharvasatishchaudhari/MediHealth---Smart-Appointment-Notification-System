@@ -93,7 +93,7 @@ MediHealth is a full-stack healthcare appointment booking system that enables **
 │   ├── package-lock.json
 │   ├── vite.config.js
 │   └── README.md
-
+'''
 
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/931736c8-5c2b-4b8f-bfc8-3bd630570358" />
 
