@@ -70,7 +70,7 @@ MediHealth is a full-stack healthcare appointment booking system that enables **
 │   ├── seedDoctors.js
 │   ├── server.js
 │   └── socket.js
-
+│
 ├── medi-booking (frontend)
 │   ├── public
 │   │   └── vite.svg
@@ -92,7 +92,6 @@ MediHealth is a full-stack healthcare appointment booking system that enables **
 │   ├── package-lock.json
 │   ├── vite.config.js
 │   └── README.md
-
 
 
 
