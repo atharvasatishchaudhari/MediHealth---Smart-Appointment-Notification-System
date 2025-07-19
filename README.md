@@ -48,8 +48,50 @@ MediHealth is a full-stack healthcare appointment booking system that enables **
 
 ## 📁 Folder Structure
 📦 MediHealth
-<img width="247" height="806" alt="image" src="https://github.com/user-attachments/assets/df967f67-fc5c-4566-9f1d-d9ee9fbf336f" />
-<img width="252" height="784" alt="image" src="https://github.com/user-attachments/assets/54fde455-9370-4f66-b7e9-99a613fa2913" />
+📦 MediHealth
+├── backend
+│   ├── config
+│   │   └── db.js
+│   ├── middleware
+│   │   ├── auth.js
+│   │   └── isDoctor.js
+│   ├── models
+│   │   ├── Appointment.js
+│   │   ├── Doctor.js
+│   │   └── User.js
+│   ├── routes
+│   │   ├── appointments.js
+│   │   ├── auth.js
+│   │   └── doctors.js
+│   ├── node_modules
+│   ├── .env
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── seedDoctors.js
+│   ├── server.js
+│   └── socket.js
+│
+├── medi-booking (frontend)
+│   ├── public
+│   │   └── vite.svg
+│   ├── src
+│   │   ├── assets
+│   │   ├── components
+│   │   ├── context
+│   │   ├── pages
+│   │   ├── api.js
+│   │   ├── App.css
+│   │   ├── App.jsx
+│   │   ├── index.css
+│   │   ├── main.jsx
+│   │   └── socket.js
+│   ├── .gitignore
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── vite.config.js
+│   └── README.md
 
 
 
