@@ -47,7 +47,8 @@ MediHealth is a full-stack healthcare appointment booking system that enables **
 ---
 
 ## 📁 Folder Structure
-📦 MediHealth
+
+```bash
 📦 MediHealth
 ├── backend
 │   ├── config
